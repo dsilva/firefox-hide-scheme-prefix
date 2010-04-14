@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>firefox-hide-scheme-prefix@danielsilva.org</em:id>
+    <em:version>1.0</em:version>
+    <em:type>2</em:type>
+   
+    <!-- Target Application this extension can install into, 
+         with minimum and maximum supported versions. --> 
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>3.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+   
+    <!-- Front End MetaData -->
+    <em:name>Hide scheme prefix</em:name>
+    <em:description>Hides the scheme prefix from URLs in the address bar.</em:description>
+    <em:creator>Daniel Silva</em:creator>
+    <em:homepageURL>http://danielsilva.org/firefox-hide-scheme-prefix</em:homepageURL>
+  </Description>      
+</RDF>
