@@ -1,0 +1,6 @@
+This Firefox add-on hides the scheme prefix (currently only http:// and https://) from URLs in the address bar.
+
+--
+Legal:
+  Copyright 2008-2010 Daniel Silva
+  Distributed under the AGPL v3 -- see LICENSE file.
